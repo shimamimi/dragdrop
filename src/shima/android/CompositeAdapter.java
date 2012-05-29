@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 
+//
 interface CompositeViewHolder {
 	void setView(View view);
 	void setId(int id);
