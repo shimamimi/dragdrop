@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+
+    <shima.android.DragDropGridView
+        android:id="@id/dragDropGridView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" 
+        android:columnWidth="96dp"
+        android:numColumns="auto_fit"
+        />
+
+    <shima.android.DragDropListView
+        android:id="@id/dragDropListView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" 
+        />
+</LinearLayout>

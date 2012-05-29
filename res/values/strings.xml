@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, DragAndDropGridViewActivity!</string>
+    <string name="app_name">Android-DragAndDropGridView</string>
+    
+    <item type="id" name="dragDropGridView">Drag and Droppable GridView</item>
+    <item type="id" name="dragDropListView">Drag and Droppable ListView</item>
+</resources>
